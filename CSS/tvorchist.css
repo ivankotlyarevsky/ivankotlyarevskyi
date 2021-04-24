@@ -1,0 +1,148 @@
+html{
+    overflow-x: hidden;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 19px;
+    
+    font-family: "Montserrat", sans-serif;
+} 
+
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding-top: 30px;
+}
+
+.header__inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__logo{
+    font-weight: bold;
+    font-size: 30px;
+    font-weight: medium;
+    color: #e76f51;
+    text-decoration: none;
+}
+
+.nav{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav__link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 20px;
+    position: relative;
+    color: white;
+    text-decoration: none;
+    color: #e76f51;
+    transition: color .1s linear;
+}
+
+.nav__link:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    opacity: 0;
+    background-color: #fce38a;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 3;
+    transition: opacity.1s linear;
+}
+
+.nav__link:hover{
+    color: #fce38a;
+
+}
+
+.nav__link:hover:after{
+    display: block;
+    opacity: 1;
+}
+
+.hat{
+margin-top: -1px;
+width: 100%;
+opacity: 0.5;
+}
+
+.bg2{
+text-align: center;
+margin-top: 50px;
+}
+
+body{
+	line-height: 2.5;
+	font-family: "Montserrat", regular;
+}
+
+h1{
+	text-align: center;
+	color: #e76f51;
+	margin-top: 50px;
+}
+
+.p1{
+	margin-left: 80px;
+	margin-right: 60px;
+	margin-top: 25px;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.italic{
+	font-style: italic;
+}
+
+.p2{
+	background-color: #fcd5ce;
+	margin-right: 150px;
+	margin-left: 150px;
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.topbutton {
+width:80px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
+
+.poloska{
+    float: right;
+    margin: 0 0 5px 5px;
+    margin-top: -11px;
+}
+
+.poloska2{
+    float: left;
+    margin: 0 0 5px 5px;
+    margin-top: -11px;
+}
